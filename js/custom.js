@@ -38,7 +38,7 @@ $(document).ready(function()
 	initSinglePlayer();
 	initAlbumPlayer();
 	initParallax();
-
+	
 	setHeader();
 
 	$(window).on('resize', function()
@@ -73,6 +73,10 @@ $(document).ready(function()
 			header.removeClass('scrolled');
 		}
 	}
+
+	
+	
+	
 
 	/* 
 

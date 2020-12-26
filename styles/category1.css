@@ -1499,25 +1499,28 @@ Search button
 
 
 .chart_button a{
-	padding: 5px 4px;
+	padding: 10px 8px;
 	margin: 25px 5px;
 	width:100%;
 	border:2px solid #fccf31;
 	border-radius: 22px;
-	color:#fccf31;
+	background:#fccf31;
+	color: white;
 }
 .chart_button a:hover{
-	background-color: #fccf31;
-	color: white;
+	background: linear-gradient(to right, #f55555, #fccf31);
+	
 }
 .chart_button_on a{
-	background-color: #fccf31;
-	color: white;
+	background: linear-gradient(to right, #f55555, #fccf31);
+	color: black;
 }
 
 
 .songs_list{
 	margin-bottom:100px;
+	background-color: rgb(247, 248, 204);
+	
 }
 ol{
 	list-style-type: none;	
@@ -1530,15 +1533,18 @@ ol{
 	/* ĐỔI MÀU NỀN CỦA TỪNG BÀI THEO THỨ TỰ CHẴN Ở ĐÂY */
 	color:white;
 	background-color: #fccf31;
-    background-image: linear-gradient(to right, #fccf31, #f55555, #fccf31);	
+    background-image: linear-gradient(to right, #f55555, #fccf31);	
 }
 .songs_list>ol>li:hover{
 	/* ĐỔI HOVER CỦA BÀI LẺ Ở ĐÂY */
-	background-color: #fadb6b;	
+	color:white;
+	background-image: linear-gradient(to right, #f02fc2, #080452);
 }
 .songs_list>ol>li:nth-child(even):hover{
 	/* ĐỔI HOVER CỦA BÀI CHẴN Ở ĐÂY */
-	background-image: linear-gradient(to right, #f7c100, #f53535, #fac814);  	
+	color:white;
+	background-image: linear-gradient(to right, #f02fc2, #080452); 	
+	z-index: 3;
 }
 .songs_list_col1{
 	display: flex;
@@ -1547,7 +1553,14 @@ ol{
 	width:8%;
 	height: 100%;	
 }
-
+.rank_nums{	
+	font-size:52px;
+	text-align: center;
+	margin-bottom:-8px;
+}
+.rank_pos{
+	width:20px;
+}
 /* CHỈNH ẢNH BÀI HÁT Ở ĐÂY */
 .songs_list_col2{
 	padding-top:8px;
@@ -1569,12 +1582,7 @@ ol{
 .songs_artist{
 	font-size:18px;
 	/* ĐỔI MÀU NỀN CỦA TÊN NGHỆ SĨ Ở ĐÂY */
-	color:rgb(155, 153, 153);
-}
-songs_fav{
-	font-size: 18px;
-	
-
+	color:rgb(8, 8, 8);
 }
 .songs_name:hover, .songs_artist:hover {
 	color:rgb(33, 163, 44);
@@ -1619,12 +1627,13 @@ songs_fav{
 	font-weight: 400;
 	color: #515151;
 	line-height: 29px;
-}
+} 
 .page_nav ul li.active a,
 .page_nav ul li:hover a
 {
 	color: #ffffff;
 }
+
 
 .heart {
 	font-size: 30px;

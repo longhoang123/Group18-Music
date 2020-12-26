@@ -447,7 +447,7 @@ section
 }
 .main_nav ul li a
 {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600;
 	color: #ffffff;
 }
@@ -526,7 +526,7 @@ section
 }
 .log_reg ul li a
 {
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 600;
 	color: #ffffff;
 }
@@ -872,7 +872,7 @@ ol{
 	font-weight: 400;
 	color: #515151;
 	line-height: 29px;
-}
+} 
 .page_nav ul li.active a,
 .page_nav ul li:hover a
 {
