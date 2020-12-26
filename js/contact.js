@@ -25,8 +25,8 @@ $(document).ready(function()
 	var header = $('.header');
 
 	initMenu();
+	
 	setHeader();
-	initGoogleMap();
 
 	$(window).on('resize', function()
 	{
@@ -95,7 +95,7 @@ $(document).ready(function()
 
 	function initGoogleMap()
 	{
-		var myLatlng = new google.maps.LatLng(10.870002682647847, 106.80382955300166);
+		var myLatlng = new google.maps.LatLng(40.760836, -73.910357);
     	var mapOptions = 
     	{
     		center: myLatlng,
