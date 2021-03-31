@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow:
 
-Sitemap:http://www.genmusicvn.tk/sitemap.xml
+Sitemap:http://www.genmusicvn.net/sitemap_index.xml
