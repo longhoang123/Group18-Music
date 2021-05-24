@@ -1,628 +1,1184 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-<title>GenMusicVN | Website âm nhạc trực tuyến</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="GenMusicVN là trang web âm nhạc cung cấp cho người dùng các nhu cầu cơ bản về âm nhạc như nghe nhạc
+  <head>
+    <title>GenMusicVN | Website âm nhạc trực tuyến</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="GenMusicVN là trang web âm nhạc cung cấp cho người dùng các nhu cầu cơ bản về âm nhạc như nghe nhạc
 (GenMusicVN Player), bảng xếp hạng âm nhạc (GenMusicVN Charts) và các tin tức âm nhạc hot nhất (GenMusicVN News). Được xây dựng và phát triển bởi
-các thành viên của CNTT2018 – UIT.">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="google-site-verification" content="j0BgckpVjbvNqsSHxwTUhcN-My3A742r6BblqyeM0NU" />
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-<link rel="stylesheet" type="text/css" href="styles/snowfall.css">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-FL7VZHGQ5H"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+các thành viên của CNTT2018 – UIT."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="google-site-verification"
+      content="j0BgckpVjbvNqsSHxwTUhcN-My3A742r6BblqyeM0NU"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles/bootstrap-4.1.2/bootstrap.min.css"
+    />
+    <link
+      href="plugins/font-awesome-4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugins/OwlCarousel2-2.3.4/owl.carousel.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="plugins/OwlCarousel2-2.3.4/animate.css"
+    />
+    <link rel="stylesheet" type="text/css" href="styles/main_styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles/responsive.css" />
+    <link rel="stylesheet" type="text/css" href="styles/snowfall.css" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-FL7VZHGQ5H"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'G-FL7VZHGQ5H');
-</script>
+      gtag("config", "G-FL7VZHGQ5H");
+    </script>
+  </head>
+  <body>
+    <div class="super_container">
+      <!-- Header -->
 
-</head>
-<body>
+      <header class="header">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="
+                  header_content
+                  d-flex
+                  flex-row
+                  align-items-center
+                  justify-content-center
+                "
+              >
+                <!-- Logo -->
+                <div class="logo">
+                  <a
+                    href="index.html"
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-end
+                      justify-content-start
+                    "
+                  >
+                    <span
+                      ><img width="90px" height="90px" src="images/logo.png"
+                    /></span>
+                    <p class="logo_text"></p>
+                  </a>
+                </div>
 
-	<div class="super_container">
+                <!-- Main Navigation -->
+                <nav class="main_nav">
+                  <ul
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-center
+                      justify-content-start
+                    "
+                  >
+                    <li class="active"><a href="index.html">Trang Chủ</a></li>
+                    <li><a href="category.html">Thể loại</a></li>
+                    <li><a href="artists.html">Nghệ sĩ</a></li>
+                    <li><a href="chart.html">Bảng xếp hạng</a></li>
+                    <li><a href="blog.html">Tin âm nhạc</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                  </ul>
+                </nav>
 
-		<!-- Header -->
+                <!-- User area -->
+                <div
+                  class="
+                    log_reg
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-start
+                  "
+                >
+                  <ul
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-start
+                      justify-content-start
+                    "
+                  >
+                    <li><a href="login.html">Đăng nhập</a></li>
+                  </ul>
 
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="header_content d-flex flex-row align-items-center justify-content-center">
+                  <!-- Hamburger -->
+                  <div
+                    class="
+                      hamburger
+                      d-flex
+                      flex-column
+                      align-items-end
+                      justify-content-between
+                    "
+                  >
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
 
-						<!-- Logo -->
-						<div class="logo">
-							<a href="index.html" class="d-flex flex-row align-items-end justify-content-start">
-								<span><img width="90px" height="90px" src="images/logo.png"></span>
-								<p class="logo_text"></p>
-								
-							</a>
-						</div>
+      <!-- Menu -->
 
-						<!-- Main Navigation -->
-						<nav class="main_nav">
-							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li class="active"><a href="index.html">Trang Chủ</a></li>
-								<li><a href="category.html">Thể loại</a></li>
-								<li><a href="artists.html">Nghệ sĩ</a></li>
-								<li><a href="chart.html">Bảng xếp hạng</a></li>
-								<li><a href="blog.html">Tin âm nhạc</a></li>
-								<li><a href="contact.html">Liên hệ</a></li>
-							</ul>
-						</nav>
+      <div class="menu">
+        <div class="menu_container">
+          <div class="menu_background"></div>
+          <div class="menu_close">
+            <i class="fa fa-times" aria-hidden="true"></i>
+          </div>
+          <div
+            class="
+              menu_content
+              d-flex
+              flex-column
+              align-items-center
+              justify-content-start
+            "
+          >
+            <nav class="menu_nav">
+              <ul
+                class="
+                  d-flex
+                  flex-column
+                  align-items-center
+                  justify-content-start
+                "
+              >
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li class="active"><a href="category.html">Thể loại</a></li>
+                <li><a href="artists.html">Nghệ sĩ</a></li>
+                <li><a href="chart.html">Bảng xếp hạng</a></li>
+                <li><a href="blog.html">Tin âm nhạc</a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Home -->
 
-						<!-- User area -->
-						<div class="log_reg d-flex flex-row align-items-center justify-content-start">
-							<ul class="d-flex flex-row align-items-start justify-content-start">
-								<li><a href="login.html">Đăng nhập</a></li>
-							</ul>
+      <div class="home">
+        <!-- Home Slider -->
+        <div class="home_slider_container">
+          <div class="owl-carousel owl-theme home_slider">
+            <!-- Slide -->
+            <div class="slide">
+              <div
+                class="background_image"
+                style="background-image: url(images/index.png)"
+              ></div>
+              <div class="home_container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="home_content">
+                        <div class="home_title_container text-center">
+                          <div class="home_title islive text-center">
+                            <h1>sự kiện <span>âm nhạc.</span></h1>
+                          </div>
+                        </div>
+                        <div class="tickets_form_container">
+                          <form action="#" class="tickets_form">
+                            <div
+                              class="
+                                d-flex
+                                flex-md-row flex-column
+                                align-items-start
+                                justify-content-md-between justify-content-start
+                              "
+                            >
+                              <div
+                                class="
+                                  tickets_form_inputs
+                                  d-flex
+                                  flex-row
+                                  align-items-start
+                                  justify-content-between
+                                "
+                              >
+                                <div
+                                  class="custom_dropdown tickets_form_input cdd"
+                                >
+                                  <div class="custom_dropdown_selected cdd">
+                                    Event
+                                  </div>
+                                  <ul class="cdd">
+                                    <li>À Ố Show - Lune Production</li>
+                                    <li>Bang Bang concert</li>
+                                    <li>Buổi hòa nhạc Emperor Concerto</li>
+                                  </ul>
+                                </div>
+                                <input
+                                  type="text"
+                                  class="tickets_form_input"
+                                  placeholder="Tickets"
+                                  required="required"
+                                />
+                              </div>
+                              <button class="tickets_form_button button">
+                                <span>Đặt vé ngay</span>
+                              </button>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-							<!-- Hamburger -->
-							<div class="hamburger d-flex flex-column align-items-end justify-content-between"><div></div><div></div><div></div></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
+            <!-- Slide -->
+            <div class="slide">
+              <div
+                class="background_image"
+                style="background-image: url(images/index1.png)"
+              ></div>
+              <div class="home_container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="home_content">
+                        <div class="home_title_container text-center">
+                          <div class="home_title islive text-center">
+                            <h1>Tìm kiếm <span>ca khúc.</span></h1>
+                          </div>
+                        </div>
+                        <div class="tickets_form_container">
+                          <form action="#" class="tickets_form">
+                            <div
+                              class="
+                                d-flex
+                                flex-md-row flex-column
+                                align-items-start
+                                justify-content-md-between justify-content-start
+                              "
+                            >
+                              <div
+                                class="
+                                  tickets_form_inputs
+                                  d-flex
+                                  flex-row
+                                  align-items-start
+                                  justify-content-between
+                                "
+                              >
+                                <input
+                                  type="text"
+                                  class="tickets_form_input"
+                                  placeholder="Tên ca khúc"
+                                  required="required"
+                                />
+                              </div>
+                              <a
+                                href="music2.html"
+                                class="tickets_form_button button"
+                                ><span>Tìm kiếm</span></a
+                              >
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-	<!-- Menu -->
+            <!-- Slide -->
+            <div class="slide">
+              <div
+                class="background_image"
+                style="background-image: url(images/index2.png)"
+              ></div>
+              <div class="home_container">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="home_content">
+                        <div class="home_title_container text-center">
+                          <div class="home_title islive text-center">
+                            <h1>Tìm kiếm <span>nghệ sĩ.</span></h1>
+                          </div>
+                        </div>
+                        <div class="tickets_form_container">
+                          <form action="#" class="tickets_form">
+                            <div
+                              class="
+                                d-flex
+                                flex-md-row flex-column
+                                align-items-start
+                                justify-content-md-between justify-content-start
+                              "
+                            >
+                              <div
+                                class="
+                                  tickets_form_inputs
+                                  d-flex
+                                  flex-row
+                                  align-items-start
+                                  justify-content-between
+                                "
+                              >
+                                <input
+                                  type="text"
+                                  class="tickets_form_input"
+                                  placeholder="Tên nghệ sĩ"
+                                  required="required"
+                                />
+                              </div>
+                              <a
+                                href="artist3.html"
+                                class="tickets_form_button button"
+                                ><span>Tìm kiếm</span></a
+                              >
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-	<div class="menu">
-		<div class="menu_container">
-			<div class="menu_background"></div>
-			<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
-			<div class="menu_content d-flex flex-column align-items-center justify-content-start">
-				<nav class="menu_nav">
-					<ul class="d-flex flex-column align-items-center justify-content-start">
-						<li><a href="index.html">Trang Chủ</a></li>
-						<li class="active"><a href="category.html">Thể loại</a></li>
-						<li><a href="artists.html">Nghệ sĩ</a></li>
-						<li><a href="chart.html">Bảng xếp hạng</a></li>
-						<li><a href="blog.html">Tin âm nhạc</a></li>
-						<li><a href="contact.html">Liên hệ</a></li>
-					</ul>
-				</nav>
-			</div>
-		</div>
-	</div>
-		<!-- Home -->
+          <!-- Home Slider Navigation -->
+          <div class="home_slider_nav">
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </div>
 
-		<div class="home">
+          <!-- Home Social -->
+          <div class="home_social">
+            <div
+              class="d-flex flex-row align-items-center justify-content-start"
+            >
+              <div class="home_social_text">Follow us</div>
+              <div class="home_social_list">
+                <ul
+                  class="
+                    d-flex
+                    flex-row
+                    align-items-center
+                    justify-content-start
+                  "
+                >
+                  <li>
+                    <a href="https://www.pinterest.com/"
+                      ><i class="fa fa-pinterest" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/ConfessionUIT"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="https://twitter.com/?lang=vi"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
 
-			<!-- Home Slider -->
-			<div class="home_slider_container">
-				<div class="owl-carousel owl-theme home_slider">
+          <!-- Scroll Down -->
+          <div class="scroll_down scroll_down_link" data-scroll-to=".tours">
+            <a href="#"></a>
+            <div
+              class="d-flex flex-row align-items-center justify-content-start"
+            >
+              <div>Xem thêm</div>
+              <div
+                class="
+                  scroll_arrows
+                  d-flex
+                  flex-column
+                  align-items-start
+                  justify-content-start
+                "
+              >
+                <img src="images/arrow_down.png" alt="arrow down" />
+                <img src="images/arrow_down.png" alt="arrow down" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-					<!-- Slide -->
-					<div class="slide">
-						<div class="background_image" style="background-image:url(images/index.png)"></div>
-						<div class="home_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="home_content">
-											<div class="home_title_container text-center">
-												<div class="home_title islive text-center"><h1>sự kiện <span>âm nhạc.</span></h1></div>
-											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
-													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															<div class="custom_dropdown tickets_form_input cdd">
-																<div class="custom_dropdown_selected cdd">Event</div>
-																<ul class="cdd">
-																	<li>À Ố Show - Lune Production</li>
-																	<li>Bang Bang concert</li>
-																	<li>Buổi hòa nhạc Emperor Concerto</li>
-																</ul>
-															</div>
-															<input type="text" class="tickets_form_input" placeholder="Tickets" required="required">
-														</div>
-														<button class="tickets_form_button button"><span>Đặt vé ngay</span></button>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+      <!-- Song -->
 
-					<!-- Slide -->
-					<div class="slide">
-						<div class="background_image" style="background-image:url(images/index1.png)"></div>
-						<div class="home_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="home_content">
-											<div class="home_title_container text-center">
-												<div class="home_title islive text-center"><h1>Tìm kiếm <span>ca khúc.</span></h1></div>
-											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
-													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															
-															<input type="text" class="tickets_form_input" placeholder="Tên ca khúc" required="required">
-														</div>
-														<a href="music2.html" class="tickets_form_button button"><span>Tìm kiếm</span></a>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+      <div class="song">
+        <div
+          class="parallax_background parallax-window"
+          data-parallax="scroll"
+          data-image-src="images/song.png"
+          data-speed="0.8"
+        ></div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="song_content">
+                <!-- Player -->
+                <div class="single_player_container">
+                  <div
+                    class="
+                      single_player
+                      d-flex
+                      flex-row
+                      align-items-center
+                      justify-content-start
+                    "
+                  >
+                    <div id="jplayer_1" class="jp-jplayer"></div>
+                    <div
+                      id="jp_container_1"
+                      class="jp-audio"
+                      role="application"
+                      aria-label="media player"
+                    >
+                      <div
+                        class="
+                          jp-gui jp-interface
+                          d-flex
+                          flex-lg-row flex-column
+                          align-items-start
+                          justify-content-start
+                        "
+                      >
+                        <!-- Player Controls -->
+                        <div
+                          class="
+                            player_controls_box
+                            d-flex
+                            flex-row
+                            align-items-start
+                            justify-content-start
+                          "
+                        >
+                          <div class="order-lg-1 order-2">
+                            <div class="player_title">Bài hát của tuần</div>
+                            <div
+                              class="
+                                jp-controls-holder
+                                player_controls
+                                ml-auto
+                                d-flex
+                                flex-row
+                                align-items-start
+                                justify-content-start
+                              "
+                            >
+                              <button
+                                class="jp-play player_button"
+                                tabindex="0"
+                              ></button>
+                              <button
+                                class="jp-stop player_button"
+                                tabindex="0"
+                              ></button>
+                            </div>
+                          </div>
+                          <div class="song_image ml-lg-auto order-lg-2 order-1">
+                            <img
+                              src="images/song_1.jpg"
+                              alt="Bài hát của tuần, hoa hải đường - Jack"
+                            />
+                          </div>
+                        </div>
 
-					<!-- Slide -->
-					<div class="slide">
-						<div class="background_image" style="background-image:url(images/index2.png)"></div>
-						<div class="home_container">
-							<div class="container">
-								<div class="row">
-									<div class="col">
-										<div class="home_content">
-											<div class="home_title_container text-center">
-												<div class="home_title islive text-center"><h1>Tìm kiếm  <span>nghệ sĩ.</span></h1></div>
-											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
-													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															
-															<input type="text" class="tickets_form_input" placeholder="Tên nghệ sĩ" required="required">
-														</div>
-														<a href="artist3.html" class="tickets_form_button button"><span>Tìm kiếm</span></a>
-													</div>
-												</form>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+                        <!-- Progress Bar -->
+                        <div
+                          class="
+                            player_bars
+                            d-flex
+                            flex-row
+                            align-items-start
+                            justify-content-start
+                          "
+                        >
+                          <div class="player_progress_box">
+                            <div
+                              class="jp-current-time"
+                              role="timer"
+                              aria-label="time"
+                            >
+                              00:00
+                            </div>
+                            <div class="song_info">
+                              <div class="jp-artist" aria-label="title">
+                                J97
+                              </div>
+                              <div class="jp-title" aria-label="title">
+                                Hoa Hải Đường
+                              </div>
+                            </div>
+                            <div class="jp-progress">
+                              <div class="jp-seek-bar">
+                                <div>
+                                  <div class="jp-play-bar"><span></span></div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="jp-duration ml-auto"
+                              role="timer"
+                              aria-label="duration"
+                            >
+                              04:13
+                            </div>
+                          </div>
 
-				</div>
+                          <!-- Volume Controls -->
+                          <div class="jp-volume-controls ml-lg-auto">
+                            <div class="mute_button">
+                              <button class="jp-mute" tabindex="0"></button>
+                            </div>
+                            <div
+                              class="
+                                d-flex
+                                flex-row
+                                align-items-center
+                                justify-content-start
+                              "
+                            >
+                              <div class="jp-volume-bar">
+                                <div>
+                                  <div class="jp-volume-bar-value"></div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="jp-no-solution">
+                        <span>Update Required</span>
+                        To play the media you will need to either update your
+                        browser to a recent version or update your
+                        <a
+                          href="http://get.adobe.com/flashplayer/"
+                          target="_blank"
+                          >Flash plugin</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-				<!-- Home Slider Navigation -->
-				<div class="home_slider_nav"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+      <!-- Tours -->
 
-				<!-- Home Social -->
-				<div class="home_social">
-					<div class="d-flex flex-row align-items-center justify-content-start">
-						<div class="home_social_text">Follow us</div>
-						<div class="home_social_list">
-							<ul class="d-flex flex-row align-items-center justify-content-start">
-								<li><a href="https://www.pinterest.com/"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-								<li><a href="https://www.facebook.com/ConfessionUIT"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-								<li><a href="https://twitter.com/?lang=vi"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+      <div class="tours" style="background-image: url('images/background.jpg')">
+        <div class="container">
+          <div class="row row-lg-eq-height">
+            <!-- Add -->
+            <div class="col-lg-4 order-lg-1 order-2 tours_col">
+              <div
+                class="
+                  extra
+                  d-flex
+                  flex-column
+                  align-items-center
+                  justify-content-between
+                "
+              >
+                <div
+                  class="background_image"
+                  style="background-image: url(images/extra_1.jpg)"
+                ></div>
+                <div class="extra_frame"></div>
+                <div class="extra_text">Hòa mình vào các buổi trình diễn</div>
+                <div class="extra_title_container">
+                  <div class="extra_year">2021</div>
+                  <div class="extra_title">Sơn Tùng MTP Tour</div>
+                  <div class="extra_subtitle">Tháng 5 năm 2021</div>
+                </div>
+                <div class="button extra_button">
+                  <a href="https://www.ticketmaster.co.uk/" target="_blank"
+                    >Đặt vé ngay</a
+                  >
+                </div>
+              </div>
+            </div>
 
-							</ul>
-						</div>
-					</div>
-				</div>
+            <!-- Tours Content -->
+            <div class="col-lg-8 order-lg-2 order-1">
+              <div class="tours_content">
+                <div class="section_title"><h1>Tour Lưu diễn hàng đầu</h1></div>
+                <div class="tours_list_container">
+                  <ul class="tours_list">
+                    <!-- Tour -->
+                    <li
+                      class="
+                        d-flex
+                        flex-row
+                        align-items-start
+                        justify-content-start
+                      "
+                    >
+                      <div class="tour_info">
+                        <div class="tour_date">Ngày 2 tháng 5 năm 2021</div>
+                        <div class="tour_name">
+                          <a
+                            target="_blank"
+                            href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C"
+                            >The SSE Arena, Belfast - Belfast</a
+                          >
+                        </div>
+                        <div class="tour_location">
+                          Quận 1, TP Hồ Chí Minh, Việt Nam
+                        </div>
+                      </div>
+                      <div class="button tour_button ml-auto">
+                        <a
+                          target="_blank"
+                          href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C"
+                          >Đặt vé ngay</a
+                        >
+                      </div>
+                    </li>
 
-				<!-- Scroll Down -->
-				<div class="scroll_down scroll_down_link" data-scroll-to=".tours">
-					<a href="#"></a>
-					<div class="d-flex flex-row align-items-center justify-content-start">
-						<div>Xem thêm</div>
-						<div class="scroll_arrows d-flex flex-column align-items-start justify-content-start">
-							<img src="images/arrow_down.png" alt="">
-							<img src="images/arrow_down.png" alt="">
-						</div>
-					</div>
-				</div>
+                    <!-- Tour -->
+                    <li
+                      class="
+                        d-flex
+                        flex-row
+                        align-items-start
+                        justify-content-start
+                      "
+                    >
+                      <div class="tour_info">
+                        <div class="tour_date">Ngày 20 tháng 5 năm 2021</div>
+                        <div class="tour_name">
+                          <a
+                            target="_blank"
+                            href="https://www.ticketmaster.co.uk/little-mix-belfast-02-05-2021/event/38005938AA590ACC"
+                            >The SSE Arena, Belfast - Belfast</a
+                          >
+                        </div>
+                        <div class="tour_location">Hà Nội, Việt Nam</div>
+                      </div>
+                      <div class="button tour_button ml-auto">
+                        <a
+                          href="https://www.ticketmaster.co.uk/little-mix-belfast-02-05-2021/event/38005938AA590ACC"
+                          >Đặt vé ngay</a
+                        >
+                      </div>
+                    </li>
 
-			</div>
-		</div>
+                    <!-- Tour -->
+                    <li
+                      class="
+                        d-flex
+                        flex-row
+                        align-items-start
+                        justify-content-start
+                      "
+                    >
+                      <div class="tour_info">
+                        <div class="tour_date">Ngày 10 tháng 6 năm 2021</div>
+                        <div class="tour_name">
+                          <a
+                            target="_blank"
+                            href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C"
+                            >The SSE Arena, Belfast - Belfast</a
+                          >
+                        </div>
+                        <div class="tour_location">Đà Nẵng, Việt Nam</div>
+                      </div>
+                      <div class="button tour_button ml-auto">
+                        <a
+                          target="_blank"
+                          href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C"
+                          >Đặt vé ngay</a
+                        >
+                      </div>
+                    </li>
 
-		<!-- Song -->
+                    <!-- Tour -->
+                    <li
+                      class="
+                        d-flex
+                        flex-row
+                        align-items-start
+                        justify-content-start
+                      "
+                    >
+                      <div class="tour_info">
+                        <div class="tour_date">Ngày 5 tháng 7 năm 2021</div>
+                        <div class="tour_name">
+                          <a
+                            target="_blank"
+                            href="https://www.ticketmaster.co.uk/west-lounge-little-mix-belfast-02-05-2021/event/38005938DBE00B74"
+                            >The SSE Arena, Belfast - Belfast</a
+                          >
+                        </div>
+                        <div class="tour_location">
+                          Buôn Ma Thuộc, Đăk Lăk, Việt Nam
+                        </div>
+                      </div>
+                      <div class="button tour_button ml-auto">
+                        <a
+                          target="_blank"
+                          href="https://www.ticketmaster.co.uk/west-lounge-little-mix-belfast-02-05-2021/event/38005938DBE00B74"
+                          >Đặt vé ngay</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tours_link">
+                  <a target="_blank" href="https://www.ticketmaster.co.uk/"
+                    >See All Tour Dates</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<div class="song">
-			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/song.png" data-speed="0.8"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="song_content">
+      <!-- App -->
 
-							<!-- Player -->
-							<div class="single_player_container">
-								<div class="single_player d-flex flex-row align-items-center justify-content-start">
-									<div id="jplayer_1" class="jp-jplayer"></div>
-									<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
-										<div class="jp-gui jp-interface d-flex flex-lg-row flex-column align-items-start justify-content-start">
+      <div class="app" style="background-image: url('images/background.jpg')">
+        <div class="container">
+          <div class="row row-lg-eq-height">
+            <!-- App Image -->
+            <div class="col-lg-6 order-lg-1 order-2 app_col">
+              <div class="app_image">
+                <img src="images/app.jpg" alt="Ca sĩ Đen Vâu " />
+              </div>
+            </div>
 
-											<!-- Player Controls -->
-											<div class="player_controls_box d-flex flex-row align-items-start justify-content-start">
-												<div class="order-lg-1 order-2">
-													<div class="player_title">Bài hát của tuần</div>
-													<div class="jp-controls-holder player_controls ml-auto d-flex flex-row align-items-start justify-content-start">
-														<button class="jp-play player_button" tabindex="0"></button>
-														<button class="jp-stop player_button" tabindex="0"></button>
-													</div>
-												</div>
-												<div class="song_image ml-lg-auto order-lg-2 order-1"><img src="images/song_1.jpg" alt="Bài hát của tuần, hoa hải đường - Jack"></div>
-											</div>
+            <!-- App Content -->
+            <div class="col-lg-6 order-lg-2 order-1">
+              <div
+                class="
+                  app_content
+                  d-flex
+                  flex-column
+                  align-items-start
+                  justify-content-center
+                "
+              >
+                <div class="section_title">
+                  <h1>
+                    Nghe nhạc và đặt vé trực tuyến mọi lúc cùng chúng tôi!
+                  </h1>
+                </div>
+                <div class="app_text">
+                  <p>
+                    GenMusicVN là một trang web âm nhạc tuyệt vời, cho phép bạn
+                    nghe nhạc, đặt vé các buổi hòa nhạc xung quanh mình ngay lập
+                    tức và những tin tức showbiz hàng đầu. Nay chúng tôi đã có
+                    mặt trên cửa hàng Play và App store.
+                  </p>
+                </div>
+                <div
+                  class="
+                    stores
+                    d-flex
+                    flex-row
+                    align-items-start
+                    justify-content-start
+                    flex-wrap
+                  "
+                >
+                  <div class="store">
+                    <a href="#"
+                      ><img src="images/appstore.png" alt="app store"
+                    /></a>
+                  </div>
+                  <div class="store">
+                    <a href="#"
+                      ><img src="images/googleplay.png" alt="google play"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-											<!-- Progress Bar -->
-											<div class="player_bars d-flex flex-row align-items-start justify-content-start">
-												<div class="player_progress_box">
-													<div class="jp-current-time" role="timer" aria-label="time">00:00</div>
-													<div class="song_info">
-														<div class="jp-artist" aria-label="title">J97</div>
-														<div class="jp-title" aria-label="title">Hoa Hải Đường</div>
-													</div>
-													<div class="jp-progress">
-														<div class="jp-seek-bar">
-															<div>
-																<div class="jp-play-bar"><span></span></div>
-															</div>
-														</div>
-													</div>
-													<div class="jp-duration ml-auto" role="timer" aria-label="duration">04:13</div>
-												</div>
+      <!-- Featured -->
 
-												<!-- Volume Controls -->
-												<div class="jp-volume-controls ml-lg-auto">
-													<div class="mute_button">
-														<button class="jp-mute" tabindex="0"></button>
-													</div>
-													<div class="d-flex flex-row align-items-center justify-content-start">
-														<div class="jp-volume-bar">
-															<div>
-																<div class="jp-volume-bar-value"></div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
+      <div
+        class="featured"
+        style="background-image: url('images/background.jpg')"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section_title text-center">
+                <h1>Albums của tháng</h1>
+              </div>
+              <div class="featured_list">
+                <div id="jplayer_2" class="jp-jplayer"></div>
+                <div
+                  id="jp_container_2"
+                  class="jp-audio"
+                  role="application"
+                  aria-label="media player"
+                >
+                  <div class="jp-type-playlist">
+                    <div class="jp-playlist">
+                      <ul
+                        class="
+                          d-flex
+                          flex-row
+                          align-items-start
+                          justify-content-start
+                          flex-wrap
+                        "
+                      >
+                        <li></li>
+                      </ul>
+                    </div>
+                    <div class="jp-no-solution">
+                      <span>Update Required</span>
+                      To play the media you will need to either update your
+                      browser to a recent version or update your
+                      <a
+                        href="http://get.adobe.com/flashplayer/"
+                        target="_blank"
+                        >Flash plugin</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-										</div>
-										<div class="jp-no-solution">
-											<span>Update Required</span>
-											To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-										</div>
-									</div>
-								</div>
-							</div>
+      <div class="news">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="section_title"><h1>Tin hot nhất</h1></div>
+            </div>
+          </div>
+          <div class="row news_row">
+            <!-- News Post -->
+            <div class="col-xl-4 col-md-6">
+              <div class="news_post image_top">
+                <div class="news_post_image">
+                  <img src="images/news_1.jpg" alt="Ca sĩ Mỹ Tâm" />
+                </div>
+                <div class="news_post_content">
+                  <div class="news_post_date"><a href="#">Oct 15, 2020</a></div>
+                  <div class="news_post_title">
+                    <a
+                      href="https://kenh14.vn/gia-ma-toi-co-the-lam-hinh-anh-cho-my-tam-toi-san-sang-lam-mien-phi-20201014230044345.chn"
+                      >“Giá mà tôi có thể làm hình ảnh cho Mỹ Tâm, tôi sẵn sàng
+                      làm miễn phí”</a
+                    >
+                  </div>
+                  <div class="news_post_text">
+                    <p>
+                      Là ngôi sao hàng đầu Việt Nam, Mỹ Tâm lại thường xuyên
+                      khiến công chúng bàn tán và... hoang mang mỗi lần cô ra
+                      MV..
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="new_post_vr_1">&nbsp;</div>
+            <div class="new_post_vr_2">&nbsp;</div>
+            <!-- News Post -->
+            <div class="col-xl-4 col-md-6">
+              <div
+                class="
+                  news_post
+                  image_bottom
+                  d-flex
+                  flex-column
+                  align-items-start
+                  justify-content-start
+                "
+              >
+                <div class="news_post_content order-md-1 order-2">
+                  <div class="news_post_date"><a href="#">Oct 15, 2020</a></div>
+                  <div class="news_post_title">
+                    <a
+                      href="https://kenh14.vn/karik-lien-tuc-nhin-hoc-tro-binz-khen-dep-trai-khien-tran-thanh-thay-lo-cho-ban-gai-bella-20201013104009048.chn"
+                      >Karik liên tục nhìn học trò Binz khen đẹp trai khiến Trấn
+                      Thành thấy lo cho bạn gái Bella</a
+                    >
+                  </div>
+                  <div class="news_post_text">
+                    <p>
+                      Karik cũng không ngại khẳng định 16 16 Typh đẹp trai thật.
+                    </p>
+                  </div>
+                </div>
+                <div class="news_post_image order-md-2 order-1">
+                  <img src="images/news_2.jpg" alt="Ca sĩ, rapper Karik " />
+                </div>
+              </div>
+            </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+            <!-- News Post -->
+            <div class="col-xl-4 col-md-6">
+              <div class="news_post image_top">
+                <div class="news_post_image">
+                  <img
+                    src="images/news_3.jpg"
+                    alt="Hương Giang phản đối đạo diễn Lê Hoàng"
+                  />
+                </div>
+                <div class="news_post_content">
+                  <div class="news_post_date"><a href="#">Oct 14, 2020</a></div>
+                  <div class="news_post_title">
+                    <a
+                      href="\https://kenh14.vn/huong-giang-phan-doi-gay-gat-khi-dao-dien-le-hoang-noi-ly-hon-la-van-minh-20201013174023252.chn"
+                      >Hương Giang phản đối gay gắt khi đạo diễn Lê Hoàng nói ly
+                      hôn là văn minh</a
+                    >
+                  </div>
+                  <div class="news_post_text">
+                    <p>
+                      Hương Giang liên tục phản ứng trước những quan điểm của
+                      đạo diễn Lê Hoàng, trong tập 13 Chị Em Chúng Mình, rất
+                      nhiều tranh cãi đã nổ ra xoay quanh những phát ngôn thẳng
+                      thắn của đạo diễn Lê Hoàng và chủ đề Ly hôn, Mẹ đơn
+                      thân...
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-		<!-- Tours -->
+      <!-- Newsletter -->
 
-		<div class="tours" style="background-image: url('images/background.jpg');">
-			<div class="container">
-				<div class="row row-lg-eq-height">
+      <div class="newsletter">
+        <div class="container">
+          <div class="row">
+            <!-- Newsletter Content -->
+            <div class="col-xl-6">
+              <div class="newsletter_content">
+                <div class="section_title"><h1>Subscribe & Follow</h1></div>
+                <div class="newsletter_text">
+                  <p>
+                    Theo dõi chúng tôi để nhận được những thông tin và ưu đãi
+                    mới nhất!.
+                  </p>
+                </div>
+              </div>
+            </div>
 
-					<!-- Add -->
-					<div class="col-lg-4 order-lg-1 order-2 tours_col">
-						<div class="extra d-flex flex-column align-items-center justify-content-between">
-							<div class="background_image" style="background-image:url(images/extra_1.jpg)"></div>
-							<div class="extra_frame"></div>
-							<div class="extra_text">Hòa mình vào các buổi trình diễn</div>
-							<div class="extra_title_container">
-								<div class="extra_year">2021</div>
-								<div class="extra_title">Sơn Tùng MTP Tour</div>
-								<div class="extra_subtitle">Tháng 5 năm 2021</div>
-							</div>
-							<div class="button extra_button"><a href="https://www.ticketmaster.co.uk/" target="_blank">Đặt vé ngay</a></div>
-						</div>
-					</div>
+            <!-- Newsletter Form -->
+            <div class="col-xl-6 nl_col">
+              <div
+                class="
+                  newsletter_form_container
+                  d-flex
+                  flex-column
+                  align-items-start
+                  justify-content-end
+                "
+              >
+                <form action="#" class="newsletter_form" id="newsletter_form">
+                  <div
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-start
+                      justify-content-between
+                    "
+                  >
+                    <input
+                      type="email"
+                      class="newsletter_input"
+                      placeholder="Email"
+                      required="required"
+                    />
+                    <button class="button newsletter_button">
+                      <span>subscribe</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-					<!-- Tours Content -->
-					<div class="col-lg-8 order-lg-2 order-1">
-						<div class="tours_content">
-							<div class="section_title"><h1>Tour Lưu diễn hàng đầu</h1></div>
-							<div class="tours_list_container">
-								<ul class="tours_list">
+      <!-- Footer -->
 
-									<!-- Tour -->
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Ngày 2 tháng 5 năm 2021</div>
-											<div class="tour_name"><a target="_blank" href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C">The SSE Arena, Belfast - Belfast</a></div>
-											<div class="tour_location">Quận 1, TP Hồ Chí Minh, Việt Nam</div>
-										</div>
-										<div class="button tour_button ml-auto"><a target="_blank" href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C">Đặt vé ngay</a></div>
-									</li>
+      <footer class="footer">
+        <div
+          class="background_image"
+          style="background-image: url(images/footer.png)"
+        ></div>
+        <div class="footer_content">
+          <div class="container">
+            <div class="row">
+              <div class="col text-center">
+                <!-- Logo -->
+                <div class="logo">
+                  <a
+                    href="index.html"
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-end
+                      justify-content-start
+                    "
+                  >
+                    <span
+                      ><img
+                        width="90px"
+                        height="90px"
+                        src="images/logo.png"
+                        alt="Logo GenMusic"
+                    /></span>
+                    <p class="logo_text">GenMusicVN</p>
+                  </a>
+                </div>
 
-									<!-- Tour -->
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Ngày 20 tháng 5 năm 2021</div>
-											<div class="tour_name"><a target="_blank" href="https://www.ticketmaster.co.uk/little-mix-belfast-02-05-2021/event/38005938AA590ACC">The SSE Arena, Belfast - Belfast</a></div>
-											<div class="tour_location">Hà Nội, Việt Nam</div>
-										</div>
-										<div class="button tour_button ml-auto"><a href="https://www.ticketmaster.co.uk/little-mix-belfast-02-05-2021/event/38005938AA590ACC">Đặt vé ngay</a></div>
-									</li>
-
-									<!-- Tour -->
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Ngày 10 tháng 6 năm 2021</div>
-											<div class="tour_name"><a target="_blank" href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C">The SSE Arena, Belfast - Belfast</a></div>
-											<div class="tour_location">Đà Nẵng, Việt Nam</div>
-										</div>
-										<div class="button tour_button ml-auto"><a target="_blank" href="https://www.ticketmaster.co.uk/little-mix-best-seat-vip-package-belfast-02-05-2021/event/38005938D68D0B6C">Đặt vé ngay</a></div>
-									</li>
-
-									<!-- Tour -->
-									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Ngày 5 tháng 7 năm 2021</div>
-											<div class="tour_name"><a target="_blank" href="https://www.ticketmaster.co.uk/west-lounge-little-mix-belfast-02-05-2021/event/38005938DBE00B74">The SSE Arena, Belfast - Belfast</a></div>
-											<div class="tour_location">Buôn Ma Thuộc, Đăk Lăk, Việt Nam</div>
-										</div>
-										<div class="button tour_button ml-auto"><a target="_blank" href="https://www.ticketmaster.co.uk/west-lounge-little-mix-belfast-02-05-2021/event/38005938DBE00B74">Đặt vé ngay</a></div>
-									</li>
-
-								</ul>
-							</div>
-							<div class="tours_link"><a target="_blank" href="https://www.ticketmaster.co.uk/">See All Tour Dates</a></div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- App -->
-
-		<div class="app" style="background-image: url('images/background.jpg');">
-			<div class="container">
-				<div class="row row-lg-eq-height">
-
-					<!-- App Image -->
-					<div class="col-lg-6 order-lg-1 order-2 app_col">
-						<div class="app_image">
-							<img src="images/app.jpg" alt="">
-						</div>
-					</div>
-
-					<!-- App Content -->
-					<div class="col-lg-6 order-lg-2 order-1">
-						<div class="app_content d-flex flex-column align-items-start justify-content-center">
-							<div class="section_title"><h1>Nghe nhạc và đặt vé trực tuyến mọi lúc cùng chúng tôi!</h1></div>
-							<div class="app_text">
-								<p>GenMusicVN là một trang web âm nhạc tuyệt vời, cho phép bạn nghe nhạc, đặt vé các buổi hòa nhạc xung quanh mình ngay lập tức và những tin tức showbiz hàng đầu. Nay chúng tôi đã có mặt trên cửa hàng Play và App store. </p>
-							</div>
-							<div class="stores d-flex flex-row align-items-start justify-content-start flex-wrap">
-								<div class="store"><a href="#"><img src="images/appstore.png" alt=""></a></div>
-								<div class="store"><a href="#"><img src="images/googleplay.png" alt=""></a></div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- Featured -->
-
-		<div class="featured" style="background-image: url('images/background.jpg');">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="section_title text-center"><h1>Albums của tháng </h1></div>
-						<div class="featured_list">
-							<div id="jplayer_2" class="jp-jplayer"></div>
-							<div id="jp_container_2" class="jp-audio" role="application" aria-label="media player">
-								<div class="jp-type-playlist">
-									<div class="jp-playlist">
-										<ul class="d-flex flex-row align-items-start justify-content-start flex-wrap">
-											<li></li>
-										</ul>
-									</div>
-									<div class="jp-no-solution">
-										<span>Update Required</span>
-										To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-
-
-		<div class="news">
-			<div class="container">
-				<div class="row">
-					<div class="col">
-						<div class="section_title"><h1>Tin hot nhất</h1></div>
-					</div>
-				</div>
-				<div class="row news_row">
-
-					<!-- News Post -->
-					<div class="col-xl-4 col-md-6">
-						<div class="news_post image_top">
-							<div class="news_post_image"><img src="images/news_1.jpg" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date"><a href="#">Oct 15, 2020</a></div>
-								<div class="news_post_title"><a href="https://kenh14.vn/gia-ma-toi-co-the-lam-hinh-anh-cho-my-tam-toi-san-sang-lam-mien-phi-20201014230044345.chn">“Giá mà tôi có thể làm hình ảnh cho Mỹ Tâm, tôi sẵn sàng làm miễn phí”</a></div>
-								<div class="news_post_text">
-									<p>Là ngôi sao hàng đầu Việt Nam, Mỹ Tâm lại thường xuyên khiến công chúng bàn tán và... hoang mang mỗi lần cô ra MV..</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="new_post_vr_1">&nbsp;</div>
-					<div class="new_post_vr_2">&nbsp;</div>
-					<!-- News Post -->
-					<div class="col-xl-4 col-md-6">
-						<div class="news_post image_bottom d-flex flex-column align-items-start justify-content-start">
-							<div class="news_post_content order-md-1 order-2">
-								<div class="news_post_date"><a href="#">Oct 15, 2020</a></div>
-								<div class="news_post_title"><a href="https://kenh14.vn/karik-lien-tuc-nhin-hoc-tro-binz-khen-dep-trai-khien-tran-thanh-thay-lo-cho-ban-gai-bella-20201013104009048.chn">Karik liên tục nhìn học trò Binz khen đẹp trai khiến Trấn Thành thấy lo cho bạn gái Bella</a></div>
-								<div class="news_post_text">
-									<p>Karik cũng không ngại khẳng định 16 16 Typh đẹp trai thật.</p>
-								</div>
-							</div>
-							<div class="news_post_image order-md-2 order-1"><img src="images/news_2.jpg" alt=""></div>
-						</div>
-					</div>
-
-					<!-- News Post -->
-					<div class="col-xl-4 col-md-6">
-						<div class="news_post image_top">
-							<div class="news_post_image"><img src="images/news_3.jpg" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date"><a href="#">Oct 14, 2020</a></div>
-								<div class="news_post_title"><a href="\https://kenh14.vn/huong-giang-phan-doi-gay-gat-khi-dao-dien-le-hoang-noi-ly-hon-la-van-minh-20201013174023252.chn">Hương Giang phản đối gay gắt khi đạo diễn Lê Hoàng nói ly hôn là văn minh</a></div>
-								<div class="news_post_text">
-									<p>Hương Giang liên tục phản ứng trước những quan điểm của đạo diễn Lê Hoàng, trong tập 13 Chị Em Chúng Mình, rất nhiều tranh cãi đã nổ ra xoay quanh những phát ngôn thẳng thắn của đạo diễn Lê Hoàng và chủ đề Ly hôn, Mẹ đơn thân...</p>
-								</div>
-							</div>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- Newsletter -->
-
-		<div class="newsletter">
-			<div class="container">
-				<div class="row">
-
-					<!-- Newsletter Content -->
-					<div class="col-xl-6">
-						<div class="newsletter_content">
-							<div class="section_title"><h1>Subscribe & Follow</h1></div>
-							<div class="newsletter_text">
-								<p>Theo dõi chúng tôi để nhận được những thông tin và ưu đãi mới nhất!.</p>
-							</div>
-						</div>
-					</div>
-
-					<!-- Newsletter Form -->
-					<div class="col-xl-6 nl_col">
-						<div class="newsletter_form_container d-flex flex-column align-items-start justify-content-end">
-							<form action="#" class="newsletter_form" id="newsletter_form">
-								<div class="d-flex flex-row align-items-start justify-content-between">
-									<input type="email" class="newsletter_input" placeholder="Email" required="required">
-									<button class="button newsletter_button"><span>subscribe</span></button>
-								</div>
-							</form>
-						</div>
-					</div>
-
-				</div>
-			</div>
-		</div>
-
-		<!-- Footer -->
-
-		<footer class="footer">
-			<div class="background_image" style="background-image:url(images/footer.png)"></div>
-			<div class="footer_content">
-				<div class="container">
-					<div class="row">
-						<div class="col text-center">
-							<!-- Logo -->
-							<div class="logo">
-								<a href="index.html" class="d-flex flex-row align-items-end justify-content-start">
-									<span><img width="90px" height="90px" src="images/logo.png"></span>
-									<p class="logo_text">GenMusicVN</p>
-									
-								</a>
-							</div>
-
-							<!-- Footer Social -->
-							<div class="footer_social">
-								<ul class="d-flex flex-row align-items-center justify-content-center">
-									<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-
-								</ul>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="footer_bar">
-				<div class="container">
-					<div class="row">
-						<div class="col">
-							<div class="copyright text-center">
-								Copyright &copy;
-								<script>document.write(new Date().getFullYear());</script> All rights reserved | This website is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">GenMusicVN CNTT2018</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</footer>
-		<!--Search button-->
-		<div class="event__search__floater">
-			<div class="search__anchor">
-		  	<form id="event-search-form" action="get">
-				<input type="text" class="search__bar" placeholder="Tìm kiếm nhanh">
-			<input class="search__submit" type="submit">
-			<div class="search__toggler"></div>
-		  	</form>
-		  
-		  	</div>
-		</div>
-	</div>
-	<snowfall>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><span>❄</span>️️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-		<snowflake><img src="images/snowflake.png">️</snowflake>
-	</snowfall>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="styles/bootstrap-4.1.2/popper.js"></script>
-<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
-<script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
-<script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
-<script src="js/custom.js"></script>
-</body>
+                <!-- Footer Social -->
+                <div class="footer_social">
+                  <ul
+                    class="
+                      d-flex
+                      flex-row
+                      align-items-center
+                      justify-content-center
+                    "
+                  >
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-pinterest" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-facebook" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><i class="fa fa-twitter" aria-hidden="true"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_bar">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="copyright text-center">
+                  Copyright &copy;
+                  <script>
+                    document.write(new Date().getFullYear());
+                  </script>
+                  All rights reserved | This website is made with
+                  <i class="fa fa-heart-o" aria-hidden="true"></i> by
+                  <a href="#" target="_blank">GenMusicVN CNTT2018</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--Search button-->
+      <div class="event__search__floater">
+        <div class="search__anchor">
+          <form id="event-search-form" action="get">
+            <input
+              type="text"
+              class="search__bar"
+              placeholder="Tìm kiếm nhanh"
+            />
+            <input class="search__submit" type="submit" />
+            <div class="search__toggler"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <snowfall>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><span>❄</span>️️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+      <snowflake><img src="images/snowflake.png" />️</snowflake>
+    </snowfall>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="plugins/greensock/TweenMax.min.js"></script>
+    <script src="plugins/greensock/TimelineMax.min.js"></script>
+    <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="plugins/greensock/animation.gsap.min.js"></script>
+    <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="plugins/OwlCarousel2-2.3.4/owl.carousel.js"></script>
+    <script src="plugins/jPlayer/jquery.jplayer.min.js"></script>
+    <script src="plugins/jPlayer/jplayer.playlist.min.js"></script>
+    <script src="plugins/easing/easing.js"></script>
+    <script src="plugins/progressbar/progressbar.min.js"></script>
+    <script src="plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="plugins/scrollTo/jquery.scrollTo.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
